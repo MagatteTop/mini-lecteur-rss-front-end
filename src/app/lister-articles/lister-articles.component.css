@@ -1,8 +1,12 @@
 .example-card {
   max-width: 1000px;
-  padding-left: 30%;
 }
+.article {
+  padding-left: 15%;
 
+}
 .example-header-image {
   background-size: cover;
 }
+/* Rules for sizing the icon. */
+.material-icons.md-18 { font-size: 18px; }

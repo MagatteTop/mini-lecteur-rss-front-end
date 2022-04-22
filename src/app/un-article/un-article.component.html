@@ -4,6 +4,9 @@
   <p>Mis en ligne le:  {{ article.datePub | date: 'à HH:mm, le d MMMM yyyy' }}</p>
   <img [src]="article.lien_image" [alt]="article.titre">
   <p>{{ article.description }}</p>
+  <mat-card-actions>
+    <button mat-button>Envoyer</button>
+  </mat-card-actions>
   <p>
   </p>
 </div>
