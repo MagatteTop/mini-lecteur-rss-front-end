@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import {Articles} from "./lister-articles/article-model";
+import {Articles} from "./article-model";
 import {HttpClient} from "@angular/common/http";
 import {Observable} from "rxjs";
 

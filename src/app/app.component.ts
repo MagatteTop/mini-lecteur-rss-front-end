@@ -1,5 +1,5 @@
 import {Component, Input} from '@angular/core';
-import {Articles} from "./lister-articles/article-model";
+import {Articles} from "./article-model";
 import {HttpService} from "./http.service";
 import {Router} from "@angular/router";
 
