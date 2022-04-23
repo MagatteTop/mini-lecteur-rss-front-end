@@ -12,12 +12,12 @@ export class HttpService {
 
   //recuper les articles
   getArticles(): Observable<Articles[]> {
-    return this.http.get<Articles[]>('https://6261e6f0327d3896e2808a91.mockapi.io/api/v1/articles/');
+    return this.http.get<Articles[]>('http://localhost:8000/api/articles.json?page=1');
   }
 
   //acceder a un article
   getArticleById(articleId: number): Observable<Articles> {
-    return this.http.get<Articles>(`https://6261e6f0327d3896e2808a91.mockapi.io/api/v1/articles/${articleId}`);
+    return this.http.get<Articles>(`http://localhost:8000/api/articles.json?page=1/${articleId}`);
   }
 
   //modifier un titre
